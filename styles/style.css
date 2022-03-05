@@ -105,3 +105,13 @@ nav {
   background: #335A8C;
   color: #32debc;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #0e0d1c;
+  color: #5cb7c1;
+  padding: 20px;
+  width: 100%;
+  bottom: 0;
+}

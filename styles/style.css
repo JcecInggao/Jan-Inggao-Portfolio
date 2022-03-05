@@ -1,0 +1,110 @@
+/* --------------------------------- Reset --------------------------------- */
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* Color Palette used https://coolors.co/11152e-253b55-18152f-327b83-32debc */
+/* Dark Purple: 0e0d1c */
+/* Dark Blue: 1c234a */
+/* Medium Blue: 253b55 */
+/* Light Blue: 5cb7c1 */
+/* Light Green: 32debc */
+
+/* ---------------------------- Main Styling ---------------------------- */
+html,
+body {
+  font-family: 'Futura', Tahoma, sans-serif;
+  line-height: 1.7em;
+}
+
+body {
+  background-color: #1c234a;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+h1, 
+h2, 
+h3 { 
+  padding-bottom: 20px; 
+  letter-spacing: 4px;
+  line-height: 1;
+}
+
+h1 {
+  color: #32debc;
+}
+h2{
+  color: #0e0d1c;
+  font-size: 2.5rem;
+}
+
+h2 span{
+  color: #335A8C;
+}
+
+p { 
+  color: #32debc;
+  margin: 10px 0; 
+}
+
+main,
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+/*  Navbar  */
+nav {
+  background: #0e0d1c;
+  color: #5cb7c1;
+  margin-bottom: 4em;
+}   
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav a { 
+  color: #5cb7c1;
+ }    
+
+.logo{
+  display: block;
+  justify-content: flex-start;
+  padding-top: 20px;
+}    
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+}   
+
+.nav ul li a {
+  font-weight: bold;
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav ul li a:hover,
+.nav ul li a.current{
+  background: #335A8C;
+  color: #B0D3E8;
+}
+
+.nav ul li a:active
+{
+  background: #335A8C;
+  color: #32debc;
+}
+

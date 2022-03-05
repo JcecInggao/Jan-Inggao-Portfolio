@@ -1,18 +1,17 @@
-/* --------------------------------- Reset --------------------------------- */
 *{
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  /* Color Palette used https://coolors.co/11152e-253b55-18152f-327b83-32debc */
+  /* Dark Purple: 0e0d1c */
+  /* Dark Blue: 1c234a */
+  /* Medium Blue: 253b55 */
+  /* Light Blue: 5cb7c1 */
+  /* Light Green: 32debc */
 }
 
-/* Color Palette used https://coolors.co/11152e-253b55-18152f-327b83-32debc */
-/* Dark Purple: 0e0d1c */
-/* Dark Blue: 1c234a */
-/* Medium Blue: 253b55 */
-/* Light Blue: 5cb7c1 */
-/* Light Green: 32debc */
 
-/* ---------------------------- Main Styling ---------------------------- */
+/*  Main Styling  */
 html,
 body {
   font-family: 'Futura', Tahoma, sans-serif;
@@ -60,7 +59,7 @@ main,
   padding: 0 20px;
 }
 
-/*  Navbar  */
+/* Nav */
 nav {
   background: #0e0d1c;
   color: #5cb7c1;
@@ -71,7 +70,6 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
 
 .nav a { 
   color: #5cb7c1;
@@ -107,4 +105,3 @@ nav {
   background: #335A8C;
   color: #32debc;
 }
-

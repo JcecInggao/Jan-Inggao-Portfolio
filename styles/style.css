@@ -2,14 +2,13 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  /* Color Palette used https://coolors.co/11152e-253b55-18152f-327b83-32debc */
+  /* Color Palette used https://coolors.co/0e0d1c-1c234a-253b55-5cb7c1-32debc */
   /* Dark Purple: 0e0d1c */
   /* Dark Blue: 1c234a */
   /* Medium Blue: 253b55 */
   /* Light Blue: 5cb7c1 */
   /* Light Green: 32debc */
 }
-
 
 /*  Main Styling  */
 html,
@@ -30,7 +29,7 @@ a{
 h1, 
 h2, 
 h3 { 
-  padding-bottom: 20px; 
+  padding-bottom: 0.5em; 
   letter-spacing: 4px;
   line-height: 1;
 }
@@ -43,9 +42,6 @@ h2{
   font-size: 2.5rem;
 }
 
-h2 span{
-  color: #335A8C;
-}
 
 p { 
   color: #32debc;
@@ -63,7 +59,7 @@ main,
 nav {
   background: #0e0d1c;
   color: #5cb7c1;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }   
 
 .nav {
@@ -150,7 +146,6 @@ nav {
 }
 
 .gallery p{
-  color: #32debc;
   letter-spacing: 1px;
   padding: 0;
   font-weight: bold;
@@ -166,6 +161,31 @@ nav {
   padding: 0 1em;
   width: 40%;
   height: 40%;
+}
+
+/* About Page */
+.about h2 span {
+  color: #5cb7c1;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-content .about-info {
+  width: 50%;
+  margin: 1em 0;
+}
+.about-content img{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.about-content p {
+  letter-spacing: 1px;
 }
 
 /* Footer */

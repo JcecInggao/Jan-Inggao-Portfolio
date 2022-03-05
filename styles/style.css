@@ -106,6 +106,69 @@ nav {
   color: #32debc;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.hero-image img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+/* Projects Gallery */
+.gallery {
+  text-align: center;
+  padding: 100px 50px;;
+}
+
+.gallery div {
+  border: #0e0d1c 3px solid;
+  background-color: #335A8C;
+  margin-bottom: 1em;
+  padding: 2em 0;
+}
+
+.gallery h3{
+  color: #32debc;
+  letter-spacing: 1px;
+  padding: 0;
+  margin-bottom: 1em;
+  
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.gallery p{
+  color: #32debc;
+  letter-spacing: 1px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.gallery .container{
+  text-align: center;
+  overflow: hidden;
+}
+
+.gallery img{
+  padding: 0 1em;
+  width: 40%;
+  height: 40%;
+}
+
 /* Footer */
 footer {
   text-align: center;

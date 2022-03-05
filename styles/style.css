@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding:0;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
   background-color: #1c234a;
 }
 
-a{
+a {
   color: #333;
   text-decoration: none;
 }
@@ -37,7 +37,7 @@ h3 {
 h1 {
   color: #32debc;
 }
-h2{
+h2 {
   color: #0e0d1c;
   font-size: 2.5rem;
 }
@@ -71,13 +71,13 @@ nav {
   color: #5cb7c1;
  }    
 
-.logo{
+.logo {
   display: block;
   justify-content: flex-start;
   padding-top: 20px;
 }    
 
-.nav ul{
+.nav ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -91,13 +91,13 @@ nav {
 }
 
 .nav ul li a:hover,
-.nav ul li a.current{
+.nav ul li a.current {
   background: #335A8C;
   color: #B0D3E8;
 }
 
 .nav ul li a:active
-{
+ {
   background: #335A8C;
   color: #32debc;
 }
@@ -117,7 +117,7 @@ nav {
   margin: 0 auto;
 }
 
-.hero-image img{
+.hero-image img {
   border-radius: 50%;
   width: 300px;
   height: 300px;
@@ -136,7 +136,7 @@ nav {
   padding: 2em 0;
 }
 
-.gallery h3{
+.gallery h3 {
   color: #32debc;
   letter-spacing: 1px;
   padding: 0;
@@ -145,19 +145,19 @@ nav {
   font-size: 1.2em;
 }
 
-.gallery p{
+.gallery p {
   letter-spacing: 1px;
   padding: 0;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-.gallery .container{
+.gallery .container {
   text-align: center;
   overflow: hidden;
 }
 
-.gallery img{
+.gallery img {
   padding: 0 1em;
   width: 40%;
   height: 40%;
@@ -178,7 +178,7 @@ nav {
   width: 50%;
   margin: 1em 0;
 }
-.about-content img{
+.about-content img {
   width: 40%;
   height: 40%;
   border-radius: 50%;
@@ -186,6 +186,43 @@ nav {
 
 .about-content p {
   letter-spacing: 1px;
+}
+
+/* Blog Page */
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  border: #0e0d1c 3px solid;
+  width: 80%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.blog-text {
+  width: 65%;
+}
+
+.blog-text p {
+  letter-spacing: 1px;
+}
+
+.blog-box img {
+  margin: 0;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.blog-even {
+  background-color: #335A8C;
 }
 
 /* Footer */

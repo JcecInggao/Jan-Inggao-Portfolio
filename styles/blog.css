@@ -1,0 +1,46 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  border: #0e0d1c 5px solid;
+  width: 80%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.blog-text {
+  width: 65%;
+}
+
+.blog-text p {
+  letter-spacing: 1px;
+}
+
+.blog-box img {
+  margin: 0;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.blog-odd {
+  background-color: #1c234a;
+}
+.blog-odd h2{
+  color:#5cb7c1;
+}
+
+.blog-even {
+  background-color: #335A8C;
+  color:#0e0d1c;
+}
+.blog-even {
+  color:#0e0d1c;
+}

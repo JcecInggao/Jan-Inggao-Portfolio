@@ -57,7 +57,7 @@ main,
   padding: 0 20px;
 }
 
-/* Nav */
+/* Navbar */
 nav {
   background: #0e0d1c;
   color: #5cb7c1;
@@ -104,7 +104,7 @@ nav {
   color: #32debc;
 }
 
-/* Hero card*/
+/* Hero card */
 
 .hero {
   display: flex;
@@ -294,6 +294,44 @@ nav {
   background-color: #335A8C;
   color: #0e0d1c;
 }
+
+/* Pop out menu */
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#about {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#blog {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+
 
 /* Footer */
 footer {

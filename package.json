@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Hello, my name is Jan Inggao.\r This portfolio consists of 4 pages.\r My home page contains some snippets of some of my projects.\r An about section which tells lets you know more about myself.\r A blog page containing some blogs.\r and a contact page where you can contact me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jan Inggao"
+}

@@ -3,11 +3,12 @@
   padding:0;
   box-sizing: border-box;
   /* Color Palette used https://coolors.co/0e0d1c-1c234a-253b55-5cb7c1-32debc */
-  /* Dark Purple: 0e0d1c */
-  /* Dark Blue: 1c234a */
-  /* Medium Blue: 253b55 */
-  /* Light Blue: 5cb7c1 */
-  /* Light Green: 32debc */
+  /* Dark Purple: #0e0d1c */
+  /* Medium Purple #12152B */
+  /* Dark Blue: #1c234a */
+  /* Medium Blue: #253b55 */
+  /* Light Blue: #5cb7c1 */
+  /* Light Green: #32debc */
 }
 
 /*  Main Styling  */
@@ -18,17 +19,17 @@ body {
 }
 
 body {
-  background-color: #1c234a;
+  background-color: #12152B;
 }
 
 a {
-  color: #333;
   text-decoration: none;
 }
 
 h1, 
 h2, 
 h3 { 
+  color: #1c234a;
   padding-bottom: 0.5em; 
   letter-spacing: 4px;
   line-height: 1;
@@ -36,12 +37,13 @@ h3 {
 
 h1 {
   color: #32debc;
-}
-h2 {
-  color: #0e0d1c;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
+h2 {
+  color: #1c234a;
+  font-size: 2.5rem;
+}
 
 p { 
   color: #32debc;
@@ -102,6 +104,8 @@ nav {
   color: #32debc;
 }
 
+/* Hero card*/
+
 .hero {
   display: flex;
   align-items: center;
@@ -126,12 +130,11 @@ nav {
 /* Projects Gallery */
 .gallery {
   text-align: center;
-  padding: 100px 50px;;
 }
 
 .gallery div {
   border: #0e0d1c 3px solid;
-  background-color: #335A8C;
+  background-color: #1c234a;
   margin-bottom: 1em;
   padding: 2em 0;
 }
@@ -201,7 +204,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items:center;
-  border: #0e0d1c 3px solid;
+  border: #0e0d1c 5px solid;
   width: 80%;
   padding: 1em;
   margin-bottom: 1em;
@@ -221,8 +224,19 @@ nav {
   border-radius: 50%;
 }
 
+.blog-odd {
+  background-color: #1c234a;
+}
+.blog-odd h2{
+  color:#5cb7c1;
+}
+
 .blog-even {
   background-color: #335A8C;
+  color:#0e0d1c;
+}
+.blog-even {
+  color:#0e0d1c;
 }
 
 /* Contact Form */
@@ -291,9 +305,10 @@ footer {
   bottom: 0;
 }
 
-/* Color Palette used https://coolors.co/0e0d1c-1c234a-253b55-5cb7c1-32debc */
-/* Dark Purple: 0e0d1c */
-/* Dark Blue: 1c234a */
-/* Medium Blue: 253b55 */
-/* Light Blue: 5cb7c1 */
-/* Light Green: 32debc */
+  /* Color Palette used https://coolors.co/0e0d1c-1c234a-253b55-5cb7c1-32debc */
+  /* Dark Purple: #0e0d1c */
+  /* Medium Purple #12152B */
+  /* Dark Blue: #1c234a */
+  /* Medium Blue: #253b55 */
+  /* Light Blue: #5cb7c1 */
+  /* Light Green: #32debc */

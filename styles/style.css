@@ -225,6 +225,62 @@ nav {
   background-color: #335A8C;
 }
 
+/* Contact Form */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e0d1c;
+  border: #5cb7c1 3px solid;
+  margin: 0 auto 1em;
+  width: 80%;
+}
+
+.contact h2 {
+  margin: 0.5em 0;
+  color: #5cb7c1;
+}
+
+.contact-textbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-textbox input,
+.contact-comment {
+  font-family: 'Futura', Tahoma, sans-serif;
+  background-color: #1c234a;
+  color: #32debc;
+  border-style: none;
+  padding: 0.4em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.contact-textbox input{
+  height: 2em;
+}
+
+.contact-comment {
+  resize: none;
+}
+
+#contact-button {
+  font-family: 'Futura', Tahoma, sans-serif;
+  background-color: #1c234a;
+  color: #32debc;
+  border: #5cb7c1 2px solid;
+  border-radius: 10%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+#contact-button:hover {
+  cursor: pointer;
+  background-color: #335A8C;
+  color: #0e0d1c;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -234,3 +290,10 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+/* Color Palette used https://coolors.co/0e0d1c-1c234a-253b55-5cb7c1-32debc */
+/* Dark Purple: 0e0d1c */
+/* Dark Blue: 1c234a */
+/* Medium Blue: 253b55 */
+/* Light Blue: 5cb7c1 */
+/* Light Green: 32debc */

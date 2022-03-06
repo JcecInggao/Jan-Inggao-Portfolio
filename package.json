@@ -4,8 +4,11 @@
   "description": "Hello, my name is Jan Inggao.\r This portfolio consists of 4 pages.\r My home page contains some snippets of some of my projects.\r An about section which tells lets you know more about myself.\r A blog page containing some blogs.\r and a contact page where you can contact me.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "mkdir -p dist/css && touch dist/css/style.css && cat src/css/*.css >> dist/css/style.css",
   },
   "keywords": [],
-  "author": "Jan Inggao"
+  "author": "Jan Inggao",
+  "dependencies": {
+    "clean-css": "^5.2.4"
+  }
 }

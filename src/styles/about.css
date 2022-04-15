@@ -9,12 +9,12 @@
 }
 
 .about-content .about-info {
-  width: 50%;
+  width: 100%;
   margin: 1em 0;
 }
 .about-content img {
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
 }
 

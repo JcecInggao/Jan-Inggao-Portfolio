@@ -43,4 +43,9 @@
 }
 .blog-even {
   color:#0e0d1c;
+
+}.blog-links {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }

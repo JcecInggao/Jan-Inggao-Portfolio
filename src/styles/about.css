@@ -2,7 +2,8 @@
   color: #5cb7c1;
 }
 
-.about-content {
+.about-content,
+.about-header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -10,9 +11,10 @@
 
 .about-content .about-info {
   width: 100%;
-  margin: 1em 0;
+  margin: 1em;
 }
-.about-content img {
+
+.about img {
   width: 30%;
   height: 30%;
   border-radius: 50%;
@@ -20,4 +22,12 @@
 
 .about-content p {
   letter-spacing: 1px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }

@@ -30,9 +30,19 @@
   border-radius: 50%;
 }
 
+.blog img {
+  margin: 0;
+  width: 30%;
+}
+
+.round {
+  border-radius: 50%;
+}
+
 .blog-odd {
   background-color: #1c234a;
 }
+
 .blog-odd h2{
   color:#5cb7c1;
 }
@@ -41,11 +51,40 @@
   background-color: #335A8C;
   color:#0e0d1c;
 }
+
 .blog-even {
   color:#0e0d1c;
+}
 
-}.blog-links {
+.blog-links {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.blog-links img{
+  width: 100%;
+}
+
+
+.light {
+  color:#5cb7c1;
+}
+
+/* POSTS */
+
+.blog-post-text {
+  width: 100%;
+}
+
+.blog-post img {
+  max-width: 1000px;
+  margin-bottom: 1em;
+}
+
+.blog-post-text a {
+  color: #335A8C;
+  text-decoration: underline;
 }

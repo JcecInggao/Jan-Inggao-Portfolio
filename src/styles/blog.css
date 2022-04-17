@@ -28,18 +28,10 @@
   background-color: #1c234a;
 }
 
-.blog-odd h2{
-  color:#5cb7c1;
-}
-
 .blog-even {
   background-color: #335A8C;
-  color:#0e0d1c;
 }
 
-.blog-even {
-  color:#0e0d1c;
-}
 
 .blog-links {
   padding: 0;
@@ -61,19 +53,30 @@
   border-radius: 50%;
 }
 
-.light {
-  color:#5cb7c1;
+.date {
+  font-size: 1em;
+  margin: 0;
+}
+
+.blog-even .date {
+  color: #1c234a;
+  font-size: 1em;
+}
+
+.blog-odd .date {
+  color: #335A8C;
+  font-size: 1em;
 }
 
 /* POSTS */
-
 .blog-post-text {
   width: 100%;
 }
 
 .blog-post img {
+  display: block;
   max-width: 1000px;
-  margin-bottom: 1em;
+  margin: 0 auto 1em;
 }
 
 .blog-post-text a {

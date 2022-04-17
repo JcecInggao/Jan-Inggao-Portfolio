@@ -26,3 +26,20 @@ When you write and edit your blog posts, consider writing for your persona.
 
 Website Instructions:
 Please describe how/where to access or run your website:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

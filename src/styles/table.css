@@ -1,0 +1,38 @@
+  /* Color Palette used https://coolors.co/0e0d1c-1c234a-253b55-5cb7c1-32debc */
+  /* Dark Purple: #0e0d1c */
+  /* Medium Purple #12152B */
+  /* Dark Blue: #1c234a */
+  /* Medium Blue: #253b55 */
+  /* Light Blue: #5cb7c1 */
+  /* Light Green: #32debc */
+
+table {
+  border: 2px solid #0e0d1c;
+  background-color: #5cb7c1;
+  border-collapse: collapse;
+}
+
+table th {
+  border: 2px solid #5cb7c1;
+  background-color: #0e0d1c;
+  color: #32debc;
+  padding: 1em;
+  border-spacing: 0;
+}
+
+table td {
+  border: 2px solid #5cb7c1;
+  padding: 1em;
+  color: #5cb7c1;
+
+}
+
+/* Light bg*/
+table tr:nth-child(odd) td{
+  background-color: #253b55;
+}
+
+/* Dark bg*/
+table tr:nth-child(even) td{
+  background-color: #1c234a;
+}

@@ -69,8 +69,26 @@
 }
 
 /* POSTS */
+.blog-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .blog-post-text {
   width: 100%;
+}
+
+.blog-post-text h3 {
+  color: #335A8C;
+  font-size: 1.5em;
+}
+
+.blog-post-text h4 {
+  color: #335A8C;
+  font-size: 1.25em;
 }
 
 .blog-post img {

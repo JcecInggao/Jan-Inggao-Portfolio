@@ -26,7 +26,7 @@ When you write and edit your blog posts, consider writing for your persona.
 
 Website Instructions:
 Please describe how/where to access or run your website:
-
+Enter the following link to the search bar: https://stupefied-kare-7d959e.netlify.app/
 
 
 

@@ -80,3 +80,28 @@
   color: #335A8C;
   text-decoration: underline;
 }
+
+.list-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list-div li {
+  font-size: 2em;
+  padding: 0.5em;
+  color:#32debc;
+}
+
+ol li {
+  font-size: 1em;
+  padding: 0.5em;
+  color:#32debc;
+  margin-left: 1em;
+}
+
+.special,
+.skill {
+  margin-bottom: 2em;
+}

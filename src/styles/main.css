@@ -41,8 +41,15 @@ h1 {
 }
 
 h2 {
-  color: #1c234a;
+  color: #5cb7c1;
   font-size: 2.5rem;
+}
+
+h3 {
+  color: #32debc;
+  font-size: 2rem;
+  padding: 0; 
+
 }
 
 p { 

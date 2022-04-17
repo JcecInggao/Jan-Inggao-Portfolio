@@ -24,21 +24,6 @@
   letter-spacing: 1px;
 }
 
-.blog-box img {
-  margin: 0;
-  width: 30%;
-  border-radius: 50%;
-}
-
-.blog img {
-  margin: 0;
-  width: 30%;
-}
-
-.round {
-  border-radius: 50%;
-}
-
 .blog-odd {
   background-color: #1c234a;
 }
@@ -68,6 +53,13 @@
   width: 100%;
 }
 
+.thumbnail {
+  width: 30%;
+}
+
+.rounded {
+  border-radius: 50%;
+}
 
 .light {
   color:#5cb7c1;
